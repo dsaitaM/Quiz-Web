@@ -1,0 +1,22 @@
+<div id="inputs">
+    <label for="titulo">Título</label>
+    <br>
+    <input type="text" id="titulo">
+    <p id="mensajeTitulo" style="display: none;">noxd</p>
+    <br>
+    <br>
+    <label for="estado">Estado</label>
+    <br>
+    <select value="Select" id="estado" placeholder="Select">
+      <option>Select</option>
+      <option>Iniciada</option>
+      <option>En proceso</option>
+      <option>Terminada</option>
+    </select>
+    <p id="mensajeSelect" style="display: none;">noxd</p>
+  </div>
+  <br>
+  <br>
+  <div id="botones">
+    <button [routerLink]="['/tareas']" routerLinkActive="router-link-active" mat-stroked-button>Actualizar</button>
+  </div>
